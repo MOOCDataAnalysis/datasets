@@ -603,6 +603,7 @@ booking id|price|description|date
 1467|20|decoration_party|2016-01-14
 1468|10|decoration_flowers|2016-03-26
 1469|20|decoration_party|2016-03-26
+-|0|decoration_wedding_flowers|None
 1471|20|decoration_party|2016-03-26
 1472|10|decoration_flowers|2016-02-07
 1475|20|decoration_party|2016-01-17
@@ -2765,6 +2766,7 @@ booking id|price|description|date
 6541|100|amusement_live_music|2016-01-31
 6543|100|amusement_clown|2016-01-31
 6544|100|amusement_live_music|2016-01-31
+-|0|amusement_quartet|None
 6545|10|decoration_flowers|2016-03-25
 6548|10|decoration_flowers|2016-03-28
 6552|10|decoration_flowers|2016-03-15
@@ -2886,6 +2888,7 @@ booking id|price|description|date
 6828|10|decoration_flowers|2016-03-17
 6830|10|decoration_flowers|2016-01-19
 6831|10|decoration_flowers|2016-01-19
+-|0|decoration_party_flowers|None
 6837|100|amusement_clown|2016-02-07
 6838|15|decoration_romantic_flowers|2016-02-18
 6841|10|decoration_flowers|2016-01-08
