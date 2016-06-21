@@ -125,7 +125,7 @@ services = {
 def random_date_between_string(start_date_string, end_date_string):
     start_date = datetime.strptime(start_date_string, "%Y-%m-%d")
     end_date = datetime.strptime(end_date_string, "%Y-%m-%d")
-    random_date_between(start_date, end_date)
+    return random_date_between(start_date, end_date)
 
 def random_date_between(start_date, end_date):
     start_stamp = start_date.strftime("%s")
