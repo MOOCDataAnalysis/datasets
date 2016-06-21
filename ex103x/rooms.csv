@@ -1,4 +1,4 @@
-id|price/day|capacity|type
+id|price/day|capacity|type|prefix
 1|150|3|deluxe_room|X
 2|100|3|double_room|D
 3|80|15|conference_room_small|S
