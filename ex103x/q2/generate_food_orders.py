@@ -72,5 +72,5 @@ def main(args):
                 f.write("{}|{}|{}|{}|{}|{}\n".format(food_dest, bill_dest, date, time_, num_servings, menu_id))
 
 if __name__ == "__main__":
-    random.seed(0)
+    random.seed(1)
     main(sys.argv[1:])

@@ -15,7 +15,7 @@ number_of_lines = 5000
 def main(args):
     request_id = 0
     fake = Faker()
-    fake.seed(0)
+    fake.seed(1)
     with open(filename, "w+") as f:
         f.write("request id|client name|room type|request type|start date|end date|#adults|#children\n")
         for i in range(0, number_of_lines):
@@ -43,5 +43,5 @@ def main(args):
                 num_children))
 
 if __name__ == "__main__":
-    random.seed(0)
+    random.seed(1)
     main(sys.argv[1:])
