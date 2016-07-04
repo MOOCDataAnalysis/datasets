@@ -17,10 +17,10 @@ def main(args):
         for booking in bookings[1:]:
             parts = booking.split("|")
             room_prefix = parts[1][0]
-            takes_service = random.random() < 0.6
+            takes_service = random.random() < 0.65
             if takes_service: 
                 booking_id = parts[0]
-                index = int(0.5 + random.triangular(0, len(data.services.keys()) - 1))
+                index = int(0.5 + random.triangular(0, len(data.services.keys()) - 2))
                 service = data.services.keys()[index]
                 price = data.services[service]
                 date = data.random_date_between_string(parts[2], parts[3])
