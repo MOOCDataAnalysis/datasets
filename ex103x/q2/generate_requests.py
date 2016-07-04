@@ -22,6 +22,8 @@ def main(args):
             request_id += 1
             client_name = fake.name()
             room_type = random.choice(data.rooms.keys())
+            if random.random() < 0.05:
+                room_type = random.choice([room for room in data.rooms.keys() if "conference" in room])
             request_type = random.choice(["wedding", "party", "conference"]) if "conference" in room_type else random.choice(["holiday", "business"])
             start_date = data.random_date_between(datetime(2016, 1, 1).date(), datetime(2016, 3, 31))
             end_date = start_date + timedelta(1 + int(random.gammavariate(2, 2)))
