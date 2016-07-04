@@ -25,7 +25,7 @@ def main(args):
             if random.random() < 0.05:
                 room_type = random.choice([room for room in data.rooms.keys() if "conference" in room])
             request_type = random.choice(["wedding", "party", "conference"]) if "conference" in room_type else random.choice(["holiday", "business"])
-            start_date = data.random_date_between(datetime(2016, 1, 1).date(), datetime(2016, 3, 31))
+            start_date = data.random_date_between(datetime(2016, 4, 1).date(), datetime(2016, 6, 30))
             end_date = start_date + timedelta(1 + int(random.gammavariate(2, 2)))
             num_adults = max(1, int(random.betavariate(2, 5) * 10))
             num_children = int(random.betavariate(1, 5) * 10)
