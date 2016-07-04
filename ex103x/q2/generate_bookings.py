@@ -33,7 +33,7 @@ def main(args):
     with open(requests_file_name, "r") as requests_file:
         request_lines = requests_file.readlines()
         for request_line in request_lines[1:]:
-            if random.random() < 0.05:
+            if random.random() < 0.04:
                 continue
             request_line_parts = request_line.split("|")
             room_type = request_line_parts[2]
